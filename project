@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href=" project 1.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <h2>A.Lavanya</h2>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Welcome to my portfolio website! This is Lavanya, a passionate web developer with expertise in HTML, CSS, and JavaScript.</p>
+      <p>I am driven by a passion for technology and innovation, thriving in dynamic environments where I can leverage my creativity and problem-solving skills to deliver impactful solutions. With a focus on collaboration and effective communication, I enjoy working closely with teams to achieve common goals and exceed expectations. I believe in the importance of integrity and ethical conduct in all aspects of my work, ensuring that I uphold the highest standards of professionalism and accountability.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1: Tic Tac Toe Game</h3>
+        <p>Designed and developed a classic Tic Tac Toe game using HTML, CSS, and JavaScript. The project implements core game mechanics and provides an intuitive user interface for an engaging gaming experience.</p>
+        <ul>
+          <li>Interactive Game Board: Implemented a 3x3 grid game board with clickable cells, allowing players to make their moves easily.</li>
+          <li>Player Interaction: Enabled players to take turns placing their symbols ('X' and 'O') on the game board, with real-time feedback indicating whose turn it is.</li>
+          <li>Winning Conditions: Implemented logic to detect winning conditions, such as achieving three symbols in a row (horizontal, vertical, or diagonal), and declared the winner accordingly.</li>
+          <li>Game Reset and Replay: Provided options for players to reset the game board and start a new game after each match, ensuring seamless gameplay.</li>
+        </ul>
+        <p>Technologies Used: HTML, CSS, JavaScript </p>
+      </div>
+      <!-- Add more project sections as needed -->
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <!-- Add more skills -->
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-form">
+        <form>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 My Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
